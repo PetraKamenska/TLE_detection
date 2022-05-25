@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/image/, 2) file: path/image.txt, or 3) list: [path1/image/, path2/image/]
+train: /home/jovyan/data/lightning/Petra/yolo/trainbatch8.txt
+val: /home/jovyan/data/lightning/Petra/yolo/valbatch.txt
+test: /home/jovyan/data/lightning/Petra/yolo/test1batch.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['event']
